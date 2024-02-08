@@ -41,15 +41,11 @@ The provided KQL query is designed to identify users who have initiated multiple
 
 Response Actions:
 
-- Verify the authenticity of the alert or report.
-- Immediately identify and Revoke Sessions/Access for any affected users
-- Identify the attacker and determine if they are attacking or involved with anything else
-- Observe the target accounts which had their passwords reset.
-    - Have any of them immediately logged in or done anything else?
-- Assess the potential impact of the incident.
-    - What type of accounts are involved?
-    - What Roles did it have?
-    - How long has it been since the breach went unattended?
+- Investigate the user: Check if the user who initiated the changes or resets is a legitimate user or a potential attacker. You can do this by checking the user's IP address, user principal name (UPN), and other relevant information.
+-Review the changes made: Analyze the changes made by the user to determine if they were malicious or legitimate. You can do this by reviewing the logs and identifying any suspicious activities.
+-Implement additional security measures: Based on the analysis of the logs, implement additional security measures to prevent future attacks. This may include blocking suspicious IP addresses, implementing multi-factor authentication (MFA), or limiting user access to specific resources.
+-Monitor user activity: Continuously monitor the user's activity to detect any suspicious behavior. This can be done by setting up alerts in Azure Sentinel or Azure Monitor that trigger when specific activities are detected.
+-Educate users: Educate users about the importance of security and the potential consequences of performing unauthorized activities. This can help reduce the risk of users inadvertently causing security incidents.
 
 **Personalized: Brute Force ATTEMPT - Linux Syslog:**
 
@@ -361,10 +357,4 @@ Ipabused database is crowd sourced so its faster and its also harder to so peopl
 
 GreyNoise Intelligence has a contract with the Department of Defense (DOD) to help reduce alert fatigue from the internet noise that creates false positives within the government's SOCs
 
-- You should always check the ip address to see if its malicious
-    - If it’s malicious
-        - Block it
-        - Check for significant or sustained data transfer
-        - Initiate containment
-        - See if there were any c2 commands that were sent
-    - If it’s not malicious
+
