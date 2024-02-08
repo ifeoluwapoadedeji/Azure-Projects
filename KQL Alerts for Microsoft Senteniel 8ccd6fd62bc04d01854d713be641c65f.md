@@ -5,7 +5,7 @@
 **Test Brute Force Attempt – Windows:**
 
 KQL:
-...
+```
 SecurityEvent
 
 | where EventID == 4625
@@ -15,7 +15,7 @@ SecurityEvent
 | summarize FailureCount = count() by AttackerIP = IpAddress, EventID, Activity, DestinationHostName = Computer
 
 | where FailureCount >= 10
-...
+```
 Description:
 
 The provided KQL query is designed to identify potential brute force attacks on Windows hosts. It filters the security events based on the event ID (4625), which represents a failed login attempt. The query then groups the data by the attacker's IP address, event ID, activity, and destination host name. It also counts the number of failures for each group. Finally, the query filters the grouped data to only include groups with a failure count of 10 or more, indicating potential brute force attacks.
