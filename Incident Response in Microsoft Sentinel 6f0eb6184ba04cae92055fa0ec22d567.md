@@ -16,16 +16,16 @@ Then I added the malicious IP address to be blocked at the firewall
 
 I then closed it as true positive and left comments on what I found and did.
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image5.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image5.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image5.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%205.png)
 
 In this report I found another brute force attempt on my MS SQL server on my Windows VM.
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image6.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image6.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image6.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%206.png)
 
 But this time the IP address has not been reported so I reported it on the OSINT website to identify the emerging threat.
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image7.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image7.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image7.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%207.png)
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image8.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image8.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image8.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%208.png)
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image9.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image9.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image9.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%209.png)
