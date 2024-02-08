@@ -1,6 +1,6 @@
 # KQL Alerts for Microsoft Sentenel
 
-![KQL%20Alerts%20for%20Microsoft%20Senteniel%208ccd6fd62bc04d01854d713be641c65f/image1.png](KQL%20Alerts%20for%20Microsoft%20Senteniel%208ccd6fd62bc04d01854d713be641c65f/image1.png)
+![Untitled](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%202024-02-07%20190105.png)
 
 **Test Brute Force Attempt – Windows:**
 
