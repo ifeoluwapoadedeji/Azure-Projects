@@ -2,17 +2,17 @@
 
 In this report I found a brute force attempt on my MS SQL server on my Windows VM
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image1.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image1.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image1.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%201.png)
 
 I used 2 different OSINT websites to verify that it was malicious.
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image2.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image2.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image2.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%202.png)
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image3.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image3.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image3.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%203.png)
 
 Then I added the malicious IP address to be blocked at the firewall
 
-![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image4.png](Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image4.png)
+![Incident%20Response%20in%20Microsoft%20Sentinel%206f0eb6184ba04cae92055fa0ec22d567/image4.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%204.png)
 
 I then closed it as true positive and left comments on what I found and did.
 
