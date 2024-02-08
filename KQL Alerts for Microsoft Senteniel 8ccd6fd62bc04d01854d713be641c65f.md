@@ -42,10 +42,10 @@ The provided KQL query is designed to identify users who have initiated multiple
 Response Actions:
 
 - Investigate the user: Check if the user who initiated the changes or resets is a legitimate user or a potential attacker. You can do this by checking the user's IP address, user principal name (UPN), and other relevant information.
--Review the changes made: Analyze the changes made by the user to determine if they were malicious or legitimate. You can do this by reviewing the logs and identifying any suspicious activities.
--Implement additional security measures: Based on the analysis of the logs, implement additional security measures to prevent future attacks. This may include blocking suspicious IP addresses, implementing multi-factor authentication (MFA), or limiting user access to specific resources.
--Monitor user activity: Continuously monitor the user's activity to detect any suspicious behavior. This can be done by setting up alerts in Azure Sentinel or Azure Monitor that trigger when specific activities are detected.
--Educate users: Educate users about the importance of security and the potential consequences of performing unauthorized activities. This can help reduce the risk of users inadvertently causing security incidents.
+- Review the changes made: Analyze the changes made by the user to determine if they were malicious or legitimate. You can do this by reviewing the logs and identifying any suspicious activities.
+- Implement additional security measures: Based on the analysis of the logs, implement additional security measures to prevent future attacks. This may include blocking suspicious IP addresses, implementing multi-factor authentication (MFA), or limiting user access to specific resources.
+- Monitor user activity: Continuously monitor the user's activity to detect any suspicious behavior. This can be done by setting up alerts in Azure Sentinel or Azure Monitor that trigger when specific activities are detected.
+- Educate users: Educate users about the importance of security and the potential consequences of performing unauthorized activities. This can help reduce the risk of users inadvertently causing security incidents.
 
 **Personalized: Brute Force ATTEMPT - Linux Syslog:**
 
