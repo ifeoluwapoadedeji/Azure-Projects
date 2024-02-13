@@ -36,8 +36,8 @@ Then I got the credentials needed to go on Greenbone to start my scans.
 
 This is what your dashboard will look like after logging in for the first time.
 
-![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image10.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/10.png)
+![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image10.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/O10.png)
 
 After making hosts and tasks targeting those hosts your dashboard should look more like this.
 
-![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image11.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/11.png)
+![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image11.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/O11.png)
