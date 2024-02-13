@@ -30,7 +30,7 @@ To start the scan I used PowerShell to ssh into the VM using the public IP addre
 
 ![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image8.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/O8.png)
 
-Then I got the credentials needed to go on greenbone to start my scans.
+Then I got the credentials needed to go on Greenbone to start my scans.
 
 ![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image9.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/O9.png)
 
