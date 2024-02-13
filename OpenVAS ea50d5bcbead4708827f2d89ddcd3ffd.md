@@ -40,4 +40,4 @@ This is what your dashboard will look like after logging in for the first time.
 
 After making hosts and tasks targeting those hosts your dashboard should look more like this.
 
-![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image11.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/O11.png)
+![OpenVAS%20ea50d5bcbead4708827f2d89ddcd3ffd/image11.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%202024-02-10%20161935.png)
