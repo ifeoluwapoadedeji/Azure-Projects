@@ -52,9 +52,9 @@ I then used Remote Desktop Connection (RDC) to log into my VM using the public I
 
 I then edited the Windows Registry to add a network service user and edited the access to give full access to the event logs (HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security)
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image13.png](Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image13.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image13.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%202024-02-18%20165756.png)
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image14.png](Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image14.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image14.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%202024-02-18%20165812.png)
 
 After that I made the Data Collection Rules for my VMs
 
