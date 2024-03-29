@@ -30,33 +30,3 @@
 |  | SecurityAlert (Microsoft Defender for Cloud) | -98.50% |
 |  | Security Incident (Sentinel Incidents) | -99.08% |
 |  | NSG Inbound Malicious Flows Allowed | -100.00% |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  | HELPER QUERIES |  |
-|  |  | Helper KQL Queries |
-|  | Start Time | range x from 1 to 1 step 1
-| project StartTime = ago(24h), StopTime = now() |
-|  | Stop Time |  |
-|  | Security Events (Windows VMs) | SecurityEvent
-| where TimeGenerated >= ago(24h)
-| count |
-|  | Syslog (Linux VMs) | Syslog
-| where TimeGenerated >= ago(24h)
-| count |
-|  | SecurityAlert (Microsoft Defender for Cloud) | SecurityAlert
-| where DisplayName !startswith "CUSTOM" and DisplayName !startswith "TEST"
-| where TimeGenerated >= ago(24h)
-| count |
-|  | Security Incident (Sentinel Incidents) | SecurityIncident
-| where TimeGenerated >= ago(24h)
-| count |
-|  | NSG Inbound Malicious Flows Allowed | AzureNetworkAnalytics_CL
-| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0
-| where TimeGenerated >= ago(24h)
-| count |
-|  | NSG Inbound Malicious Flows Blocked | AzureNetworkAnalytics_CL
-| where FlowType_s == "MaliciousFlow" and DeniedInFlows_d > 0
-| where TimeGenerated >= ago(24h)
-| count |
