@@ -30,3 +30,4 @@
 |  | SecurityAlert (Microsoft Defender for Cloud) | -98.50% |
 |  | Security Incident (Sentinel Incidents) | -99.08% |
 |  | NSG Inbound Malicious Flows Allowed | -100.00% |
+|  | NSG Inbound Malicious Flows Blocked | 100.00% |
