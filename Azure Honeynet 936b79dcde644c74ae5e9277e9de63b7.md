@@ -1,6 +1,6 @@
 # Azure Honeynet
 
-Below you will see a diagram of the flow of information across the network. I opened up Azure resources for direct communication from the internet. I collected the Windows event log and the Linux logs and logs on SQL, Entra ID, my key vault, activity log, and blob storage. I then fed them into my LAW and the =n I filtered that through custom KQL alerts which reported the happenings inside mocrosoft sentinel. I also uploaded a spreadsheet of the geo-coordinates of the world's cities and my threat intelligence workbooks reported geolocations of the attacks. Detailed in the rest of this report is the construction of the honeynet.
+Below you will see a diagram of the flow of information across the network. I opened up Azure resources for direct communication from the internet. I collected the Windows event log and the Linux logs and logs on SQL, Entra ID, my key vault, activity log, and blob storage. I then fed them into my LAW and then I filtered that through custom KQL alerts which reported the happenings inside mocrosoft sentinel. I also uploaded a spreadsheet of the geo-coordinates of the world's cities and my threat intelligence workbooks reported geolocations of the attacks. Detailed in the rest of this report is the construction of the honeynet.
 
 ![Untitled1](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Bad%20Actor%20Diagram.drawio%20(1).png)
 
