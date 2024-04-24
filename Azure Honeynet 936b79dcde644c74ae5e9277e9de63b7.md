@@ -18,23 +18,23 @@ Then click create > Azure virtual machine
 
 Under Project Details select "create new" under Resource Group.
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image4.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/image3.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image4.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Image3.png)
 
 Then fill out the Virtual Machine Name, Region, and Image
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image5.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/image4.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image5.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Image4.png)
 
 After that choose an appropriate size and create the credentials for the admin account you will use to log into windows
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image6.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/image5.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image6.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Image5.png)
 
 Under the Networking tab select the correct Virtual Network and select Delete public IP and NIC when VM is deleted. Then click review and create
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image7.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/image6.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image7.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Image6.png)
 
 The first step was to make my VMs using Azure.
 
-![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image8.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/image7.png)
+![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image8.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Image7.png)
 
 ![Azure%20Honeynet%20936b79dcde644c74ae5e9277e9de63b7/image9.png](https://github.com/ifeoluwapoadedeji/pictures/blob/main/image9.png)
 
