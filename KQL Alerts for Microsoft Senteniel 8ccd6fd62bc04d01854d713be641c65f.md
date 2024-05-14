@@ -1,4 +1,4 @@
-# KQL Alerts for Microsoft Sentenel
+# KQL Alerts for Microsoft Sentinel
 
 ![Untitled](https://github.com/ifeoluwapoadedeji/pictures/blob/main/Screenshot%202024-02-07%20190105.png)
 
